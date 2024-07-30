@@ -47,9 +47,15 @@ importers:
       vite:
         specifier: ^5.3.4
         version: 5.3.5
+      vite-tsconfig-paths:
+        specifier: ^4.3.2
+        version: 4.3.2(typescript@5.5.4)(vite@5.3.5)
 
   packages/wuzoo-service:
     dependencies:
+      '@wuzoo/admin':
+        specifier: workspace:^
+        version: link:../wuzoo-admin
       react:
         specifier: ^18.3.1
         version: 18.3.1
