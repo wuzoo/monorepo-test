@@ -1,8 +1,9 @@
 {
-  "name": "wuzoo-service",
+  "name": "@wuzoo/service",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "main": "src/main.tsx",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -10,6 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@wuzoo/admin": "workspace:^",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
