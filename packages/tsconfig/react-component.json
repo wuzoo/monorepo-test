@@ -1,0 +1,7 @@
+{
+  "extends": "./base.json",
+  "compilerOptions": {
+    "jsxImportSource": "@emotion/react",
+    "jsx": "react-jsx"
+  }
+}
