@@ -1,0 +1,12 @@
+{
+  "extends": "@wuzoo/tsconfig/react-component.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "baseUrl": "./src",
+    "paths": {
+      "ui/*": ["./*"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
