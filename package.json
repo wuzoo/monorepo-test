@@ -6,9 +6,18 @@
   "scripts": {
     "admin": "pnpm -filter @wuzoo/admin",
     "service": "pnpm -filter @wuzoo/service",
+    "tsconfig": "pnpm -filter @wuzoo/tsconfig",
+    "ui": "pnpm -filter @wuzoo/ui",
     "dev": "pnpm dev"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@tanstack/react-query": "^5.51.23",
+    "@tanstack/react-query-devtools": "^5.51.23",
+    "@types/react": "^18.3.3",
+    "react": "^18.3.1"
+  }
 }

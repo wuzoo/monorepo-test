@@ -1,12 +1,9 @@
-import Button from "@wuzoo-service/components/Button";
-
-import { AdminButton } from "@wuzoo/admin";
+import { Button } from "@wuzoo/ui";
 
 function App() {
   return (
     <>
       <Button />
-      <AdminButton />
     </>
   );
 }
